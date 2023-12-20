@@ -1,0 +1,27 @@
+.navbarContainer{
+    background-color: rgb(255, 99, 71);
+
+}
+
+.navBar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navBar > li {
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.headerContainer {
+    background-color: darksalmon;
+    border: 3px solid rgb(187, 58, 58);
+}
+.logoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "react_project",
+  "version": "1.0.0",
+  "description": "This is react_project by Jenny",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jayaranjani/React_Project"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jenny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayaranjani/React_Project/issues"
+  },
+  "homepage": "https://github.com/Jayaranjani/React_Project#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
