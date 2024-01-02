@@ -1,27 +1,66 @@
-.navbarContainer{
-    background-color: rgb(255, 99, 71);
-
-}
-
 .navBar {
     display: flex;
     list-style-type: none;
 }
 
 .navBar > li {
-    padding: 10px;
+    padding: 10px 40px;
     font-size: large;
     font-weight: 600;
 }
 
-.headerContainer {
-    background-color: darksalmon;
-    border: 3px solid rgb(187, 58, 58);
+.navBar > li:hover {
+color:rgb(241, 115, 93);
+cursor: pointer;
 }
+
+.foodIcon {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
 .logoContainer{
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 3px 5px 0px #dcd2d0;
+    border-radius: 13px;
 }
 .logo{
     width: 80px;
+}
+.restroContainer{
+    background-color:#f7f3f2;
+    width: 19%;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 3px 3px 0px #ffe0e0;
+}
+.restroContainer:hover{
+    cursor: pointer;
+    background-color:#f6ebe7;
+    transform: scale(0.95);
+}
+.imageContainer{
+    display: flex;
+    border-radius: 10px;
+}
+.restroCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardDetails{
+    padding: 10px;
+  
+}
+h3,h4{
+    margin: 0px 0px 0px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rating{
+    background-color: rgb(53, 177, 53);
+    color:white;
+    width:fit-content
 }
